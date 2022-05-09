@@ -1,0 +1,3841 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/USA.js"></script>
+
+</head>
+<body>
+    <div id="616717d320034a7e9dfde9773ad05702" class="chart-container" style="width:1980px; height:1080px;"></div>
+    <script>
+        var chart_616717d320034a7e9dfde9773ad05702 = echarts.init(
+            document.getElementById('616717d320034a7e9dfde9773ad05702'), 'dark', {renderer: 'canvas'});
+        var option_616717d320034a7e9dfde9773ad05702 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "bar",
+                "name": "Shootings per state",
+                "xAxisIndex": 0,
+                "yAxisIndex": 0,
+                "legendHoverLink": true,
+                "data": [
+                    7.86,
+                    6.82,
+                    5.76,
+                    5.49,
+                    4.94,
+                    4.52,
+                    4.48,
+                    3.94,
+                    3.46,
+                    3.02,
+                    3.01,
+                    3.0,
+                    2.81,
+                    2.7,
+                    2.68,
+                    2.6,
+                    2.59,
+                    2.5,
+                    2.47,
+                    2.42,
+                    2.32,
+                    2.31,
+                    2.28,
+                    2.16,
+                    2.16,
+                    2.14,
+                    2.09,
+                    2.03,
+                    2.03,
+                    2.03,
+                    2.02,
+                    1.73,
+                    1.54,
+                    1.5,
+                    1.39,
+                    1.39,
+                    1.29,
+                    1.21,
+                    1.21,
+                    1.11,
+                    1.1,
+                    0.97,
+                    0.85,
+                    0.71,
+                    0.61,
+                    0.6,
+                    0.0,
+                    0.0,
+                    0.0,
+                    null,
+                    null
+                ],
+                "showBackground": false,
+                "barMinHeight": 0,
+                "barCategoryGap": "20%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": true,
+                    "position": "right",
+                    "margin": 8,
+                    "fontSize": 11,
+                    "formatter": "{b} : {c}"
+                }
+            },
+            {
+                "type": "map",
+                "name": "Shooting",
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8,
+                    "fontSize": 14
+                },
+                "mapType": "\u7f8e\u56fd",
+                "data": [
+                    {
+                        "name": "Nevada",
+                        "value": 7.86
+                    },
+                    {
+                        "name": "Alaska",
+                        "value": 6.82
+                    },
+                    {
+                        "name": "New Mexico",
+                        "value": 5.76
+                    },
+                    {
+                        "name": "Colorado",
+                        "value": 5.49
+                    },
+                    {
+                        "name": "Oklahoma",
+                        "value": 4.94
+                    },
+                    {
+                        "name": "Arizona",
+                        "value": 4.52
+                    },
+                    {
+                        "name": "Utah",
+                        "value": 4.48
+                    },
+                    {
+                        "name": "Montana",
+                        "value": 3.94
+                    },
+                    {
+                        "name": "Florida",
+                        "value": 3.46
+                    },
+                    {
+                        "name": "New Hampshire",
+                        "value": 3.02
+                    },
+                    {
+                        "name": "Washington",
+                        "value": 3.01
+                    },
+                    {
+                        "name": "Georgia",
+                        "value": 3.0
+                    },
+                    {
+                        "name": "Louisiana",
+                        "value": 2.81
+                    },
+                    {
+                        "name": "Arkansas",
+                        "value": 2.7
+                    },
+                    {
+                        "name": "Mississippi",
+                        "value": 2.68
+                    },
+                    {
+                        "name": "California",
+                        "value": 2.6
+                    },
+                    {
+                        "name": "Indiana",
+                        "value": 2.59
+                    },
+                    {
+                        "name": "Kentucky",
+                        "value": 2.5
+                    },
+                    {
+                        "name": "Idaho",
+                        "value": 2.47
+                    },
+                    {
+                        "name": "Kansas",
+                        "value": 2.42
+                    },
+                    {
+                        "name": "Missouri",
+                        "value": 2.32
+                    },
+                    {
+                        "name": "Tennessee",
+                        "value": 2.31
+                    },
+                    {
+                        "name": "Alabama",
+                        "value": 2.28
+                    },
+                    {
+                        "name": "Delaware",
+                        "value": 2.16
+                    },
+                    {
+                        "name": "West Virginia",
+                        "value": 2.16
+                    },
+                    {
+                        "name": "Nebraska",
+                        "value": 2.14
+                    },
+                    {
+                        "name": "Wisconsin",
+                        "value": 2.09
+                    },
+                    {
+                        "name": "Oregon",
+                        "value": 2.03
+                    },
+                    {
+                        "name": "North Carolina",
+                        "value": 2.03
+                    },
+                    {
+                        "name": "Texas",
+                        "value": 2.03
+                    },
+                    {
+                        "name": "Maryland",
+                        "value": 2.02
+                    },
+                    {
+                        "name": "Wyoming",
+                        "value": 1.73
+                    },
+                    {
+                        "name": "District of Columbia",
+                        "value": 1.54
+                    },
+                    {
+                        "name": "Maine",
+                        "value": 1.5
+                    },
+                    {
+                        "name": "Connecticut",
+                        "value": 1.39
+                    },
+                    {
+                        "name": "North Dakota",
+                        "value": 1.39
+                    },
+                    {
+                        "name": "Minnesota",
+                        "value": 1.29
+                    },
+                    {
+                        "name": "Ohio",
+                        "value": 1.21
+                    },
+                    {
+                        "name": "Virginia",
+                        "value": 1.21
+                    },
+                    {
+                        "name": "Michigan",
+                        "value": 1.11
+                    },
+                    {
+                        "name": "Pennsylvania",
+                        "value": 1.1
+                    },
+                    {
+                        "name": "Iowa",
+                        "value": 0.97
+                    },
+                    {
+                        "name": "Illinois",
+                        "value": 0.85
+                    },
+                    {
+                        "name": "Hawaii",
+                        "value": 0.71
+                    },
+                    {
+                        "name": "New York",
+                        "value": 0.61
+                    },
+                    {
+                        "name": "Massachusetts",
+                        "value": 0.6
+                    },
+                    {
+                        "name": "Vermont",
+                        "value": 0.0
+                    },
+                    {
+                        "name": "South Dakota",
+                        "value": 0.0
+                    },
+                    {
+                        "name": "Rhode Island",
+                        "value": 0.0
+                    },
+                    {
+                        "name": "New Jeresy",
+                        "value": null
+                    },
+                    {
+                        "name": "SouthCarolina",
+                        "value": null
+                    }
+                ],
+                "roam": true,
+                "aspectScale": 0.75,
+                "nameProperty": "name",
+                "selectedMode": false,
+                "center": [
+                    -112,
+                    34
+                ],
+                "zoom": 0.8,
+                "mapValueCalculation": "sum",
+                "showLegendSymbol": true,
+                "emphasis": {},
+                "xAxisIndex": 1,
+                "yAxisIndex": 1
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "vertical",
+            "autoPlay": true,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "playInterval": 1000,
+            "left": "95%",
+            "top": "4%",
+            "bottom": "2%",
+            "width": "3%",
+            "data": [
+                "2015",
+                "2016",
+                "2017",
+                "2018",
+                "2019",
+                "2020"
+            ]
+        },
+        "grid": [
+            {
+                "show": false,
+                "zlevel": 0,
+                "z": 2,
+                "left": "2%",
+                "top": "50%",
+                "right": "10%",
+                "bottom": "4%",
+                "containLabel": false,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderWidth": 1
+            },
+            {
+                "show": false,
+                "zlevel": 0,
+                "z": 2,
+                "left": "40%",
+                "top": "1%",
+                "right": "1%",
+                "bottom": "70%",
+                "containLabel": false,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderWidth": 1
+            }
+        ],
+        "xAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "axisLabel": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                }
+            }
+        ],
+        "yAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "axisLabel": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                },
+                "data": [
+                    "Nevada",
+                    "Alaska",
+                    "New Mexico",
+                    "Colorado",
+                    "Oklahoma",
+                    "Arizona",
+                    "Utah",
+                    "Montana",
+                    "Florida",
+                    "New Hampshire",
+                    "Washington",
+                    "Georgia",
+                    "Louisiana",
+                    "Arkansas",
+                    "Mississippi",
+                    "California",
+                    "Indiana",
+                    "Kentucky",
+                    "Idaho",
+                    "Kansas",
+                    "Missouri",
+                    "Tennessee",
+                    "Alabama",
+                    "Delaware",
+                    "West Virginia",
+                    "Nebraska",
+                    "Wisconsin",
+                    "Oregon",
+                    "North Carolina",
+                    "Texas",
+                    "Maryland",
+                    "Wyoming",
+                    "District of Columbia",
+                    "Maine",
+                    "Connecticut",
+                    "North Dakota",
+                    "Minnesota",
+                    "Ohio",
+                    "Virginia",
+                    "Michigan",
+                    "Pennsylvania",
+                    "Iowa",
+                    "Illinois",
+                    "Hawaii",
+                    "New York",
+                    "Massachusetts",
+                    "Vermont",
+                    "South Dakota",
+                    "Rhode Island",
+                    "New Jeresy",
+                    "SouthCarolina"
+                ]
+            }
+        ],
+        "visualMap": {
+            "show": true,
+            "type": "continuous",
+            "min": 0.0,
+            "max": 9.54,
+            "text": [
+                "high",
+                "low"
+            ],
+            "inRange": {
+                "color": [
+                    "#50a3ba",
+                    "#eac763",
+                    "#d94e5d"
+                ]
+            },
+            "calculable": true,
+            "inverse": false,
+            "splitNumber": 5,
+            "dimension": 0,
+            "orient": "vertical",
+            "left": "1%",
+            "top": "1%",
+            "showLabel": true,
+            "itemWidth": 20,
+            "itemHeight": 140,
+            "borderWidth": 0
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Shootings per state"
+                    ],
+                    "selected": {
+                        "Shootings per state": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [
+                        "Shooting"
+                    ],
+                    "selected": {
+                        "Shooting": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Shootings per state",
+                    "xAxisIndex": 0,
+                    "yAxisIndex": 0,
+                    "legendHoverLink": true,
+                    "data": [
+                        9.12,
+                        8.63,
+                        7.53,
+                        6.18,
+                        5.87,
+                        5.72,
+                        5.45,
+                        5.19,
+                        5.11,
+                        4.5,
+                        4.33,
+                        4.32,
+                        3.74,
+                        3.56,
+                        3.54,
+                        3.52,
+                        3.44,
+                        3.41,
+                        3.31,
+                        3.3,
+                        2.95,
+                        2.77,
+                        2.77,
+                        2.68,
+                        2.59,
+                        2.5,
+                        2.29,
+                        2.27,
+                        2.25,
+                        2.16,
+                        2.13,
+                        2.06,
+                        2.02,
+                        1.97,
+                        1.92,
+                        1.85,
+                        1.69,
+                        1.62,
+                        1.62,
+                        1.6,
+                        1.55,
+                        1.5,
+                        1.42,
+                        1.39,
+                        1.33,
+                        1.04,
+                        0.91,
+                        0.56,
+                        0.0,
+                        null,
+                        null
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8,
+                        "fontSize": 11,
+                        "formatter": "{b} : {c}"
+                    }
+                },
+                {
+                    "type": "map",
+                    "name": "Shooting",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 14
+                    },
+                    "mapType": "\u7f8e\u56fd",
+                    "data": [
+                        {
+                            "name": "New Mexico",
+                            "value": 9.12
+                        },
+                        {
+                            "name": "Wyoming",
+                            "value": 8.63
+                        },
+                        {
+                            "name": "Oklahoma",
+                            "value": 7.53
+                        },
+                        {
+                            "name": "District of Columbia",
+                            "value": 6.18
+                        },
+                        {
+                            "name": "Arizona",
+                            "value": 5.87
+                        },
+                        {
+                            "name": "Nevada",
+                            "value": 5.72
+                        },
+                        {
+                            "name": "Alaska",
+                            "value": 5.45
+                        },
+                        {
+                            "name": "Louisiana",
+                            "value": 5.19
+                        },
+                        {
+                            "name": "Colorado",
+                            "value": 5.11
+                        },
+                        {
+                            "name": "California",
+                            "value": 4.5
+                        },
+                        {
+                            "name": "Idaho",
+                            "value": 4.33
+                        },
+                        {
+                            "name": "West Virginia",
+                            "value": 4.32
+                        },
+                        {
+                            "name": "Nebraska",
+                            "value": 3.74
+                        },
+                        {
+                            "name": "South Dakota",
+                            "value": 3.56
+                        },
+                        {
+                            "name": "Texas",
+                            "value": 3.54
+                        },
+                        {
+                            "name": "Alabama",
+                            "value": 3.52
+                        },
+                        {
+                            "name": "Utah",
+                            "value": 3.44
+                        },
+                        {
+                            "name": "Kentucky",
+                            "value": 3.41
+                        },
+                        {
+                            "name": "Missouri",
+                            "value": 3.31
+                        },
+                        {
+                            "name": "Oregon",
+                            "value": 3.3
+                        },
+                        {
+                            "name": "Florida",
+                            "value": 2.95
+                        },
+                        {
+                            "name": "Kansas",
+                            "value": 2.77
+                        },
+                        {
+                            "name": "Tennessee",
+                            "value": 2.77
+                        },
+                        {
+                            "name": "Mississippi",
+                            "value": 2.68
+                        },
+                        {
+                            "name": "Indiana",
+                            "value": 2.59
+                        },
+                        {
+                            "name": "Georgia",
+                            "value": 2.5
+                        },
+                        {
+                            "name": "Washington",
+                            "value": 2.29
+                        },
+                        {
+                            "name": "New Hampshire",
+                            "value": 2.27
+                        },
+                        {
+                            "name": "Ohio",
+                            "value": 2.25
+                        },
+                        {
+                            "name": "Delaware",
+                            "value": 2.16
+                        },
+                        {
+                            "name": "North Carolina",
+                            "value": 2.13
+                        },
+                        {
+                            "name": "Virginia",
+                            "value": 2.06
+                        },
+                        {
+                            "name": "Maryland",
+                            "value": 2.02
+                        },
+                        {
+                            "name": "Montana",
+                            "value": 1.97
+                        },
+                        {
+                            "name": "Wisconsin",
+                            "value": 1.92
+                        },
+                        {
+                            "name": "Minnesota",
+                            "value": 1.85
+                        },
+                        {
+                            "name": "Arkansas",
+                            "value": 1.69
+                        },
+                        {
+                            "name": "Michigan",
+                            "value": 1.62
+                        },
+                        {
+                            "name": "Iowa",
+                            "value": 1.62
+                        },
+                        {
+                            "name": "Vermont",
+                            "value": 1.6
+                        },
+                        {
+                            "name": "Illinois",
+                            "value": 1.55
+                        },
+                        {
+                            "name": "Maine",
+                            "value": 1.5
+                        },
+                        {
+                            "name": "Hawaii",
+                            "value": 1.42
+                        },
+                        {
+                            "name": "North Dakota",
+                            "value": 1.39
+                        },
+                        {
+                            "name": "Pennsylvania",
+                            "value": 1.33
+                        },
+                        {
+                            "name": "Massachusetts",
+                            "value": 1.04
+                        },
+                        {
+                            "name": "New York",
+                            "value": 0.91
+                        },
+                        {
+                            "name": "Connecticut",
+                            "value": 0.56
+                        },
+                        {
+                            "name": "Rhode Island",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "New Jeresy",
+                            "value": null
+                        },
+                        {
+                            "name": "SouthCarolina",
+                            "value": null
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "center": [
+                        -112,
+                        34
+                    ],
+                    "zoom": 0.8,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "xAxisIndex": 1,
+                    "yAxisIndex": 1
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "New Mexico",
+                        "Wyoming",
+                        "Oklahoma",
+                        "District of Columbia",
+                        "Arizona",
+                        "Nevada",
+                        "Alaska",
+                        "Louisiana",
+                        "Colorado",
+                        "California",
+                        "Idaho",
+                        "West Virginia",
+                        "Nebraska",
+                        "South Dakota",
+                        "Texas",
+                        "Alabama",
+                        "Utah",
+                        "Kentucky",
+                        "Missouri",
+                        "Oregon",
+                        "Florida",
+                        "Kansas",
+                        "Tennessee",
+                        "Mississippi",
+                        "Indiana",
+                        "Georgia",
+                        "Washington",
+                        "New Hampshire",
+                        "Ohio",
+                        "Delaware",
+                        "North Carolina",
+                        "Virginia",
+                        "Maryland",
+                        "Montana",
+                        "Wisconsin",
+                        "Minnesota",
+                        "Arkansas",
+                        "Michigan",
+                        "Iowa",
+                        "Vermont",
+                        "Illinois",
+                        "Maine",
+                        "Hawaii",
+                        "North Dakota",
+                        "Pennsylvania",
+                        "Massachusetts",
+                        "New York",
+                        "Connecticut",
+                        "Rhode Island",
+                        "New Jeresy",
+                        "SouthCarolina"
+                    ]
+                }
+            ],
+            "title": [
+                {
+                    "text": "Year 2015's shootings per state (*1e-6)",
+                    "left": "center",
+                    "padding": 20,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "fontWeight": "bolder",
+                        "fontSize": 36
+                    }
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0.0,
+                "max": 9.54,
+                "text": [
+                    "high",
+                    "low"
+                ],
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "dimension": 0,
+                "orient": "vertical",
+                "left": "1%",
+                "top": "1%",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [],
+            "graphic": [
+                {
+                    "type": "group",
+                    "diffChildrenByName": false,
+                    "children": [
+                        {
+                            "type": "text",
+                            "$action": "merge",
+                            "rotation": 0,
+                            "left": "center",
+                            "top": "center",
+                            "bounding": "all",
+                            "z": 100,
+                            "zlevel": 0,
+                            "silent": false,
+                            "invisible": false,
+                            "ignore": false,
+                            "cursor": "pointer",
+                            "draggable": false,
+                            "progressive": false,
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "$action": "merge",
+                    "rotation": 0,
+                    "left": "95%",
+                    "bottom": "98%",
+                    "bounding": "raw",
+                    "z": 100,
+                    "zlevel": 0,
+                    "silent": false,
+                    "invisible": false,
+                    "ignore": false,
+                    "cursor": "pointer",
+                    "draggable": false,
+                    "progressive": false,
+                    "width": 0,
+                    "height": 0
+                }
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Shootings per state"
+                    ],
+                    "selected": {
+                        "Shootings per state": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [
+                        "Shooting"
+                    ],
+                    "selected": {
+                        "Shooting": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Shootings per state",
+                    "xAxisIndex": 0,
+                    "yAxisIndex": 0,
+                    "legendHoverLink": true,
+                    "data": [
+                        9.54,
+                        8.16,
+                        7.72,
+                        5.72,
+                        4.93,
+                        4.74,
+                        4.55,
+                        4.42,
+                        3.87,
+                        3.73,
+                        3.72,
+                        3.57,
+                        3.46,
+                        3.45,
+                        3.24,
+                        3.23,
+                        3.19,
+                        3.15,
+                        3.05,
+                        3.02,
+                        2.84,
+                        2.79,
+                        2.76,
+                        2.74,
+                        2.7,
+                        2.68,
+                        2.67,
+                        2.65,
+                        2.6,
+                        2.58,
+                        2.47,
+                        2.4,
+                        2.38,
+                        2.36,
+                        1.98,
+                        1.9,
+                        1.82,
+                        1.81,
+                        1.79,
+                        1.64,
+                        1.51,
+                        1.5,
+                        1.39,
+                        1.29,
+                        1.17,
+                        1.11,
+                        1.08,
+                        0.83,
+                        0.76,
+                        null,
+                        null
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8,
+                        "fontSize": 11,
+                        "formatter": "{b} : {c}"
+                    }
+                },
+                {
+                    "type": "map",
+                    "name": "Shooting",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 14
+                    },
+                    "mapType": "\u7f8e\u56fd",
+                    "data": [
+                        {
+                            "name": "Alaska",
+                            "value": 9.54
+                        },
+                        {
+                            "name": "New Mexico",
+                            "value": 8.16
+                        },
+                        {
+                            "name": "District of Columbia",
+                            "value": 7.72
+                        },
+                        {
+                            "name": "Arizona",
+                            "value": 5.72
+                        },
+                        {
+                            "name": "Montana",
+                            "value": 4.93
+                        },
+                        {
+                            "name": "South Dakota",
+                            "value": 4.74
+                        },
+                        {
+                            "name": "Colorado",
+                            "value": 4.55
+                        },
+                        {
+                            "name": "Oklahoma",
+                            "value": 4.42
+                        },
+                        {
+                            "name": "Kentucky",
+                            "value": 3.87
+                        },
+                        {
+                            "name": "Alabama",
+                            "value": 3.73
+                        },
+                        {
+                            "name": "Arkansas",
+                            "value": 3.72
+                        },
+                        {
+                            "name": "Nevada",
+                            "value": 3.57
+                        },
+                        {
+                            "name": "Kansas",
+                            "value": 3.46
+                        },
+                        {
+                            "name": "Wyoming",
+                            "value": 3.45
+                        },
+                        {
+                            "name": "West Virginia",
+                            "value": 3.24
+                        },
+                        {
+                            "name": "Tennessee",
+                            "value": 3.23
+                        },
+                        {
+                            "name": "Vermont",
+                            "value": 3.19
+                        },
+                        {
+                            "name": "Washington",
+                            "value": 3.15
+                        },
+                        {
+                            "name": "Oregon",
+                            "value": 3.05
+                        },
+                        {
+                            "name": "California",
+                            "value": 3.02
+                        },
+                        {
+                            "name": "Hawaii",
+                            "value": 2.84
+                        },
+                        {
+                            "name": "Wisconsin",
+                            "value": 2.79
+                        },
+                        {
+                            "name": "Utah",
+                            "value": 2.76
+                        },
+                        {
+                            "name": "North Carolina",
+                            "value": 2.74
+                        },
+                        {
+                            "name": "Florida",
+                            "value": 2.7
+                        },
+                        {
+                            "name": "Mississippi",
+                            "value": 2.68
+                        },
+                        {
+                            "name": "Nebraska",
+                            "value": 2.67
+                        },
+                        {
+                            "name": "Missouri",
+                            "value": 2.65
+                        },
+                        {
+                            "name": "Texas",
+                            "value": 2.6
+                        },
+                        {
+                            "name": "Minnesota",
+                            "value": 2.58
+                        },
+                        {
+                            "name": "Idaho",
+                            "value": 2.47
+                        },
+                        {
+                            "name": "Georgia",
+                            "value": 2.4
+                        },
+                        {
+                            "name": "Louisiana",
+                            "value": 2.38
+                        },
+                        {
+                            "name": "Maryland",
+                            "value": 2.36
+                        },
+                        {
+                            "name": "Indiana",
+                            "value": 1.98
+                        },
+                        {
+                            "name": "Rhode Island",
+                            "value": 1.9
+                        },
+                        {
+                            "name": "Virginia",
+                            "value": 1.82
+                        },
+                        {
+                            "name": "Ohio",
+                            "value": 1.81
+                        },
+                        {
+                            "name": "Illinois",
+                            "value": 1.79
+                        },
+                        {
+                            "name": "Massachusetts",
+                            "value": 1.64
+                        },
+                        {
+                            "name": "New Hampshire",
+                            "value": 1.51
+                        },
+                        {
+                            "name": "Maine",
+                            "value": 1.5
+                        },
+                        {
+                            "name": "North Dakota",
+                            "value": 1.39
+                        },
+                        {
+                            "name": "Iowa",
+                            "value": 1.29
+                        },
+                        {
+                            "name": "Pennsylvania",
+                            "value": 1.17
+                        },
+                        {
+                            "name": "Michigan",
+                            "value": 1.11
+                        },
+                        {
+                            "name": "Delaware",
+                            "value": 1.08
+                        },
+                        {
+                            "name": "Connecticut",
+                            "value": 0.83
+                        },
+                        {
+                            "name": "New York",
+                            "value": 0.76
+                        },
+                        {
+                            "name": "New Jeresy",
+                            "value": null
+                        },
+                        {
+                            "name": "SouthCarolina",
+                            "value": null
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "center": [
+                        -112,
+                        34
+                    ],
+                    "zoom": 0.8,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "xAxisIndex": 1,
+                    "yAxisIndex": 1
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Alaska",
+                        "New Mexico",
+                        "District of Columbia",
+                        "Arizona",
+                        "Montana",
+                        "South Dakota",
+                        "Colorado",
+                        "Oklahoma",
+                        "Kentucky",
+                        "Alabama",
+                        "Arkansas",
+                        "Nevada",
+                        "Kansas",
+                        "Wyoming",
+                        "West Virginia",
+                        "Tennessee",
+                        "Vermont",
+                        "Washington",
+                        "Oregon",
+                        "California",
+                        "Hawaii",
+                        "Wisconsin",
+                        "Utah",
+                        "North Carolina",
+                        "Florida",
+                        "Mississippi",
+                        "Nebraska",
+                        "Missouri",
+                        "Texas",
+                        "Minnesota",
+                        "Idaho",
+                        "Georgia",
+                        "Louisiana",
+                        "Maryland",
+                        "Indiana",
+                        "Rhode Island",
+                        "Virginia",
+                        "Ohio",
+                        "Illinois",
+                        "Massachusetts",
+                        "New Hampshire",
+                        "Maine",
+                        "North Dakota",
+                        "Iowa",
+                        "Pennsylvania",
+                        "Michigan",
+                        "Delaware",
+                        "Connecticut",
+                        "New York",
+                        "New Jeresy",
+                        "SouthCarolina"
+                    ]
+                }
+            ],
+            "title": [
+                {
+                    "text": "Year 2016's shootings per state (*1e-6)",
+                    "left": "center",
+                    "padding": 20,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "fontWeight": "bolder",
+                        "fontSize": 36
+                    }
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0.0,
+                "max": 9.54,
+                "text": [
+                    "high",
+                    "low"
+                ],
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "dimension": 0,
+                "orient": "vertical",
+                "left": "1%",
+                "top": "1%",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [],
+            "graphic": [
+                {
+                    "type": "group",
+                    "diffChildrenByName": false,
+                    "children": [
+                        {
+                            "type": "text",
+                            "$action": "merge",
+                            "rotation": 0,
+                            "left": "center",
+                            "top": "center",
+                            "bounding": "all",
+                            "z": 100,
+                            "zlevel": 0,
+                            "silent": false,
+                            "invisible": false,
+                            "ignore": false,
+                            "cursor": "pointer",
+                            "draggable": false,
+                            "progressive": false,
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "$action": "merge",
+                    "rotation": 0,
+                    "left": "95%",
+                    "bottom": "98%",
+                    "bounding": "raw",
+                    "z": 100,
+                    "zlevel": 0,
+                    "silent": false,
+                    "invisible": false,
+                    "ignore": false,
+                    "cursor": "pointer",
+                    "draggable": false,
+                    "progressive": false,
+                    "width": 0,
+                    "height": 0
+                }
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Shootings per state"
+                    ],
+                    "selected": {
+                        "Shootings per state": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [
+                        "Shooting"
+                    ],
+                    "selected": {
+                        "Shooting": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Shootings per state",
+                    "xAxisIndex": 0,
+                    "yAxisIndex": 0,
+                    "legendHoverLink": true,
+                    "data": [
+                        6.82,
+                        6.72,
+                        5.71,
+                        5.4,
+                        5.0,
+                        4.8,
+                        4.67,
+                        4.51,
+                        4.35,
+                        4.17,
+                        4.16,
+                        4.15,
+                        3.94,
+                        3.56,
+                        3.52,
+                        3.33,
+                        3.31,
+                        3.29,
+                        3.24,
+                        3.24,
+                        3.18,
+                        3.09,
+                        3.09,
+                        3.08,
+                        2.79,
+                        2.59,
+                        2.51,
+                        2.4,
+                        2.37,
+                        2.29,
+                        2.18,
+                        2.13,
+                        1.85,
+                        1.73,
+                        1.72,
+                        1.62,
+                        1.6,
+                        1.48,
+                        1.33,
+                        1.21,
+                        1.18,
+                        1.17,
+                        0.76,
+                        0.71,
+                        0.3,
+                        0.28,
+                        0.0,
+                        0.0,
+                        0.0,
+                        null,
+                        null
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8,
+                        "fontSize": 11,
+                        "formatter": "{b} : {c}"
+                    }
+                },
+                {
+                    "type": "map",
+                    "name": "Shooting",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 14
+                    },
+                    "mapType": "\u7f8e\u56fd",
+                    "data": [
+                        {
+                            "name": "Alaska",
+                            "value": 6.82
+                        },
+                        {
+                            "name": "New Mexico",
+                            "value": 6.72
+                        },
+                        {
+                            "name": "Oklahoma",
+                            "value": 5.71
+                        },
+                        {
+                            "name": "Delaware",
+                            "value": 5.4
+                        },
+                        {
+                            "name": "Nevada",
+                            "value": 5.0
+                        },
+                        {
+                            "name": "Missouri",
+                            "value": 4.8
+                        },
+                        {
+                            "name": "Arizona",
+                            "value": 4.67
+                        },
+                        {
+                            "name": "Maine",
+                            "value": 4.51
+                        },
+                        {
+                            "name": "Mississippi",
+                            "value": 4.35
+                        },
+                        {
+                            "name": "Colorado",
+                            "value": 4.17
+                        },
+                        {
+                            "name": "North Dakota",
+                            "value": 4.16
+                        },
+                        {
+                            "name": "Kansas",
+                            "value": 4.15
+                        },
+                        {
+                            "name": "Montana",
+                            "value": 3.94
+                        },
+                        {
+                            "name": "South Dakota",
+                            "value": 3.56
+                        },
+                        {
+                            "name": "Alabama",
+                            "value": 3.52
+                        },
+                        {
+                            "name": "California",
+                            "value": 3.33
+                        },
+                        {
+                            "name": "Wisconsin",
+                            "value": 3.31
+                        },
+                        {
+                            "name": "Washington",
+                            "value": 3.29
+                        },
+                        {
+                            "name": "Louisiana",
+                            "value": 3.24
+                        },
+                        {
+                            "name": "West Virginia",
+                            "value": 3.24
+                        },
+                        {
+                            "name": "Kentucky",
+                            "value": 3.18
+                        },
+                        {
+                            "name": "Idaho",
+                            "value": 3.09
+                        },
+                        {
+                            "name": "District of Columbia",
+                            "value": 3.09
+                        },
+                        {
+                            "name": "Tennessee",
+                            "value": 3.08
+                        },
+                        {
+                            "name": "Oregon",
+                            "value": 2.79
+                        },
+                        {
+                            "name": "Indiana",
+                            "value": 2.59
+                        },
+                        {
+                            "name": "Ohio",
+                            "value": 2.51
+                        },
+                        {
+                            "name": "Georgia",
+                            "value": 2.4
+                        },
+                        {
+                            "name": "Arkansas",
+                            "value": 2.37
+                        },
+                        {
+                            "name": "Florida",
+                            "value": 2.29
+                        },
+                        {
+                            "name": "Virginia",
+                            "value": 2.18
+                        },
+                        {
+                            "name": "North Carolina",
+                            "value": 2.13
+                        },
+                        {
+                            "name": "Texas",
+                            "value": 1.85
+                        },
+                        {
+                            "name": "Wyoming",
+                            "value": 1.73
+                        },
+                        {
+                            "name": "Utah",
+                            "value": 1.72
+                        },
+                        {
+                            "name": "Iowa",
+                            "value": 1.62
+                        },
+                        {
+                            "name": "Vermont",
+                            "value": 1.6
+                        },
+                        {
+                            "name": "Minnesota",
+                            "value": 1.48
+                        },
+                        {
+                            "name": "Pennsylvania",
+                            "value": 1.33
+                        },
+                        {
+                            "name": "Michigan",
+                            "value": 1.21
+                        },
+                        {
+                            "name": "Maryland",
+                            "value": 1.18
+                        },
+                        {
+                            "name": "Illinois",
+                            "value": 1.17
+                        },
+                        {
+                            "name": "New Hampshire",
+                            "value": 0.76
+                        },
+                        {
+                            "name": "New York",
+                            "value": 0.71
+                        },
+                        {
+                            "name": "Massachusetts",
+                            "value": 0.3
+                        },
+                        {
+                            "name": "Connecticut",
+                            "value": 0.28
+                        },
+                        {
+                            "name": "Nebraska",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "Rhode Island",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "Hawaii",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "New Jeresy",
+                            "value": null
+                        },
+                        {
+                            "name": "SouthCarolina",
+                            "value": null
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "center": [
+                        -112,
+                        34
+                    ],
+                    "zoom": 0.8,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "xAxisIndex": 1,
+                    "yAxisIndex": 1
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Alaska",
+                        "New Mexico",
+                        "Oklahoma",
+                        "Delaware",
+                        "Nevada",
+                        "Missouri",
+                        "Arizona",
+                        "Maine",
+                        "Mississippi",
+                        "Colorado",
+                        "North Dakota",
+                        "Kansas",
+                        "Montana",
+                        "South Dakota",
+                        "Alabama",
+                        "California",
+                        "Wisconsin",
+                        "Washington",
+                        "Louisiana",
+                        "West Virginia",
+                        "Kentucky",
+                        "Idaho",
+                        "District of Columbia",
+                        "Tennessee",
+                        "Oregon",
+                        "Indiana",
+                        "Ohio",
+                        "Georgia",
+                        "Arkansas",
+                        "Florida",
+                        "Virginia",
+                        "North Carolina",
+                        "Texas",
+                        "Wyoming",
+                        "Utah",
+                        "Iowa",
+                        "Vermont",
+                        "Minnesota",
+                        "Pennsylvania",
+                        "Michigan",
+                        "Maryland",
+                        "Illinois",
+                        "New Hampshire",
+                        "New York",
+                        "Massachusetts",
+                        "Connecticut",
+                        "Nebraska",
+                        "Rhode Island",
+                        "Hawaii",
+                        "New Jeresy",
+                        "SouthCarolina"
+                    ]
+                }
+            ],
+            "title": [
+                {
+                    "text": "Year 2017's shootings per state (*1e-6)",
+                    "left": "center",
+                    "padding": 20,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "fontWeight": "bolder",
+                        "fontSize": 36
+                    }
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0.0,
+                "max": 9.54,
+                "text": [
+                    "high",
+                    "low"
+                ],
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "dimension": 0,
+                "orient": "vertical",
+                "left": "1%",
+                "top": "1%",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [],
+            "graphic": [
+                {
+                    "type": "group",
+                    "diffChildrenByName": false,
+                    "children": [
+                        {
+                            "type": "text",
+                            "$action": "merge",
+                            "rotation": 0,
+                            "left": "center",
+                            "top": "center",
+                            "bounding": "all",
+                            "z": 100,
+                            "zlevel": 0,
+                            "silent": false,
+                            "invisible": false,
+                            "ignore": false,
+                            "cursor": "pointer",
+                            "draggable": false,
+                            "progressive": false,
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "$action": "merge",
+                    "rotation": 0,
+                    "left": "95%",
+                    "bottom": "98%",
+                    "bounding": "raw",
+                    "z": 100,
+                    "zlevel": 0,
+                    "silent": false,
+                    "invisible": false,
+                    "ignore": false,
+                    "cursor": "pointer",
+                    "draggable": false,
+                    "progressive": false,
+                    "width": 0,
+                    "height": 0
+                }
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Shootings per state"
+                    ],
+                    "selected": {
+                        "Shootings per state": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [
+                        "Shooting"
+                    ],
+                    "selected": {
+                        "Shooting": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Shootings per state",
+                    "xAxisIndex": 0,
+                    "yAxisIndex": 0,
+                    "legendHoverLink": true,
+                    "data": [
+                        7.68,
+                        7.53,
+                        6.8,
+                        6.4,
+                        6.32,
+                        6.06,
+                        5.18,
+                        5.07,
+                        5.0,
+                        4.48,
+                        4.09,
+                        3.94,
+                        3.69,
+                        3.2,
+                        3.19,
+                        3.18,
+                        2.81,
+                        2.81,
+                        2.79,
+                        2.77,
+                        2.75,
+                        2.68,
+                        2.59,
+                        2.43,
+                        2.28,
+                        2.25,
+                        2.19,
+                        2.19,
+                        2.16,
+                        2.13,
+                        2.06,
+                        2.03,
+                        2.02,
+                        1.86,
+                        1.73,
+                        1.57,
+                        1.54,
+                        1.52,
+                        1.51,
+                        1.5,
+                        1.41,
+                        1.32,
+                        0.71,
+                        0.53,
+                        0.3,
+                        0.28,
+                        0.0,
+                        0.0,
+                        0.0,
+                        null,
+                        null
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8,
+                        "fontSize": 11,
+                        "formatter": "{b} : {c}"
+                    }
+                },
+                {
+                    "type": "map",
+                    "name": "Shooting",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 14
+                    },
+                    "mapType": "\u7f8e\u56fd",
+                    "data": [
+                        {
+                            "name": "New Mexico",
+                            "value": 7.68
+                        },
+                        {
+                            "name": "Oklahoma",
+                            "value": 7.53
+                        },
+                        {
+                            "name": "Idaho",
+                            "value": 6.8
+                        },
+                        {
+                            "name": "Hawaii",
+                            "value": 6.4
+                        },
+                        {
+                            "name": "Arizona",
+                            "value": 6.32
+                        },
+                        {
+                            "name": "Colorado",
+                            "value": 6.06
+                        },
+                        {
+                            "name": "Wyoming",
+                            "value": 5.18
+                        },
+                        {
+                            "name": "Arkansas",
+                            "value": 5.07
+                        },
+                        {
+                            "name": "Nevada",
+                            "value": 5.0
+                        },
+                        {
+                            "name": "Utah",
+                            "value": 4.48
+                        },
+                        {
+                            "name": "Alaska",
+                            "value": 4.09
+                        },
+                        {
+                            "name": "Montana",
+                            "value": 3.94
+                        },
+                        {
+                            "name": "Tennessee",
+                            "value": 3.69
+                        },
+                        {
+                            "name": "Georgia",
+                            "value": 3.2
+                        },
+                        {
+                            "name": "Vermont",
+                            "value": 3.19
+                        },
+                        {
+                            "name": "Kentucky",
+                            "value": 3.18
+                        },
+                        {
+                            "name": "Louisiana",
+                            "value": 2.81
+                        },
+                        {
+                            "name": "Missouri",
+                            "value": 2.81
+                        },
+                        {
+                            "name": "Oregon",
+                            "value": 2.79
+                        },
+                        {
+                            "name": "North Dakota",
+                            "value": 2.77
+                        },
+                        {
+                            "name": "Florida",
+                            "value": 2.75
+                        },
+                        {
+                            "name": "Mississippi",
+                            "value": 2.68
+                        },
+                        {
+                            "name": "Iowa",
+                            "value": 2.59
+                        },
+                        {
+                            "name": "Washington",
+                            "value": 2.43
+                        },
+                        {
+                            "name": "Indiana",
+                            "value": 2.28
+                        },
+                        {
+                            "name": "Ohio",
+                            "value": 2.25
+                        },
+                        {
+                            "name": "Texas",
+                            "value": 2.19
+                        },
+                        {
+                            "name": "California",
+                            "value": 2.19
+                        },
+                        {
+                            "name": "West Virginia",
+                            "value": 2.16
+                        },
+                        {
+                            "name": "North Carolina",
+                            "value": 2.13
+                        },
+                        {
+                            "name": "Virginia",
+                            "value": 2.06
+                        },
+                        {
+                            "name": "Minnesota",
+                            "value": 2.03
+                        },
+                        {
+                            "name": "Maryland",
+                            "value": 2.02
+                        },
+                        {
+                            "name": "Alabama",
+                            "value": 1.86
+                        },
+                        {
+                            "name": "Kansas",
+                            "value": 1.73
+                        },
+                        {
+                            "name": "Wisconsin",
+                            "value": 1.57
+                        },
+                        {
+                            "name": "District of Columbia",
+                            "value": 1.54
+                        },
+                        {
+                            "name": "Michigan",
+                            "value": 1.52
+                        },
+                        {
+                            "name": "New Hampshire",
+                            "value": 1.51
+                        },
+                        {
+                            "name": "Maine",
+                            "value": 1.5
+                        },
+                        {
+                            "name": "Pennsylvania",
+                            "value": 1.41
+                        },
+                        {
+                            "name": "Illinois",
+                            "value": 1.32
+                        },
+                        {
+                            "name": "New York",
+                            "value": 0.71
+                        },
+                        {
+                            "name": "Nebraska",
+                            "value": 0.53
+                        },
+                        {
+                            "name": "Massachusetts",
+                            "value": 0.3
+                        },
+                        {
+                            "name": "Connecticut",
+                            "value": 0.28
+                        },
+                        {
+                            "name": "South Dakota",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "Rhode Island",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "Delaware",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "New Jeresy",
+                            "value": null
+                        },
+                        {
+                            "name": "SouthCarolina",
+                            "value": null
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "center": [
+                        -112,
+                        34
+                    ],
+                    "zoom": 0.8,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "xAxisIndex": 1,
+                    "yAxisIndex": 1
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "New Mexico",
+                        "Oklahoma",
+                        "Idaho",
+                        "Hawaii",
+                        "Arizona",
+                        "Colorado",
+                        "Wyoming",
+                        "Arkansas",
+                        "Nevada",
+                        "Utah",
+                        "Alaska",
+                        "Montana",
+                        "Tennessee",
+                        "Georgia",
+                        "Vermont",
+                        "Kentucky",
+                        "Louisiana",
+                        "Missouri",
+                        "Oregon",
+                        "North Dakota",
+                        "Florida",
+                        "Mississippi",
+                        "Iowa",
+                        "Washington",
+                        "Indiana",
+                        "Ohio",
+                        "Texas",
+                        "California",
+                        "West Virginia",
+                        "North Carolina",
+                        "Virginia",
+                        "Minnesota",
+                        "Maryland",
+                        "Alabama",
+                        "Kansas",
+                        "Wisconsin",
+                        "District of Columbia",
+                        "Michigan",
+                        "New Hampshire",
+                        "Maine",
+                        "Pennsylvania",
+                        "Illinois",
+                        "New York",
+                        "Nebraska",
+                        "Massachusetts",
+                        "Connecticut",
+                        "South Dakota",
+                        "Rhode Island",
+                        "Delaware",
+                        "New Jeresy",
+                        "SouthCarolina"
+                    ]
+                }
+            ],
+            "title": [
+                {
+                    "text": "Year 2018's shootings per state (*1e-6)",
+                    "left": "center",
+                    "padding": 20,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "fontWeight": "bolder",
+                        "fontSize": 36
+                    }
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0.0,
+                "max": 9.54,
+                "text": [
+                    "high",
+                    "low"
+                ],
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "dimension": 0,
+                "orient": "vertical",
+                "left": "1%",
+                "top": "1%",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [],
+            "graphic": [
+                {
+                    "type": "group",
+                    "diffChildrenByName": false,
+                    "children": [
+                        {
+                            "type": "text",
+                            "$action": "merge",
+                            "rotation": 0,
+                            "left": "center",
+                            "top": "center",
+                            "bounding": "all",
+                            "z": 100,
+                            "zlevel": 0,
+                            "silent": false,
+                            "invisible": false,
+                            "ignore": false,
+                            "cursor": "pointer",
+                            "draggable": false,
+                            "progressive": false,
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "$action": "merge",
+                    "rotation": 0,
+                    "left": "95%",
+                    "bottom": "98%",
+                    "bounding": "raw",
+                    "z": 100,
+                    "zlevel": 0,
+                    "silent": false,
+                    "invisible": false,
+                    "ignore": false,
+                    "cursor": "pointer",
+                    "draggable": false,
+                    "progressive": false,
+                    "width": 0,
+                    "height": 0
+                }
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Shootings per state"
+                    ],
+                    "selected": {
+                        "Shootings per state": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [
+                        "Shooting"
+                    ],
+                    "selected": {
+                        "Shooting": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Shootings per state",
+                    "xAxisIndex": 0,
+                    "yAxisIndex": 0,
+                    "legendHoverLink": true,
+                    "data": [
+                        8.18,
+                        7.01,
+                        6.06,
+                        4.93,
+                        4.32,
+                        4.27,
+                        4.15,
+                        4.06,
+                        4.02,
+                        3.84,
+                        3.81,
+                        3.76,
+                        3.72,
+                        3.71,
+                        3.46,
+                        3.22,
+                        3.21,
+                        3.14,
+                        3.01,
+                        2.95,
+                        2.77,
+                        2.76,
+                        2.61,
+                        2.6,
+                        2.53,
+                        2.5,
+                        2.42,
+                        2.37,
+                        2.28,
+                        2.07,
+                        2.05,
+                        1.81,
+                        1.73,
+                        1.6,
+                        1.54,
+                        1.51,
+                        1.5,
+                        1.48,
+                        1.29,
+                        1.01,
+                        0.97,
+                        0.83,
+                        0.81,
+                        0.78,
+                        0.7,
+                        0.45,
+                        0.0,
+                        0.0,
+                        0.0,
+                        null,
+                        null
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8,
+                        "fontSize": 11,
+                        "formatter": "{b} : {c}"
+                    }
+                },
+                {
+                    "type": "map",
+                    "name": "Shooting",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 14
+                    },
+                    "mapType": "\u7f8e\u56fd",
+                    "data": [
+                        {
+                            "name": "Alaska",
+                            "value": 8.18
+                        },
+                        {
+                            "name": "Oklahoma",
+                            "value": 7.01
+                        },
+                        {
+                            "name": "Colorado",
+                            "value": 6.06
+                        },
+                        {
+                            "name": "Montana",
+                            "value": 4.93
+                        },
+                        {
+                            "name": "West Virginia",
+                            "value": 4.32
+                        },
+                        {
+                            "name": "Hawaii",
+                            "value": 4.27
+                        },
+                        {
+                            "name": "Tennessee",
+                            "value": 4.15
+                        },
+                        {
+                            "name": "Arkansas",
+                            "value": 4.06
+                        },
+                        {
+                            "name": "Mississippi",
+                            "value": 4.02
+                        },
+                        {
+                            "name": "New Mexico",
+                            "value": 3.84
+                        },
+                        {
+                            "name": "Oregon",
+                            "value": 3.81
+                        },
+                        {
+                            "name": "Arizona",
+                            "value": 3.76
+                        },
+                        {
+                            "name": "Washington",
+                            "value": 3.72
+                        },
+                        {
+                            "name": "Idaho",
+                            "value": 3.71
+                        },
+                        {
+                            "name": "Louisiana",
+                            "value": 3.46
+                        },
+                        {
+                            "name": "Nevada",
+                            "value": 3.22
+                        },
+                        {
+                            "name": "Nebraska",
+                            "value": 3.21
+                        },
+                        {
+                            "name": "Missouri",
+                            "value": 3.14
+                        },
+                        {
+                            "name": "Texas",
+                            "value": 3.01
+                        },
+                        {
+                            "name": "North Carolina",
+                            "value": 2.95
+                        },
+                        {
+                            "name": "Kansas",
+                            "value": 2.77
+                        },
+                        {
+                            "name": "Utah",
+                            "value": 2.76
+                        },
+                        {
+                            "name": "Wisconsin",
+                            "value": 2.61
+                        },
+                        {
+                            "name": "Florida",
+                            "value": 2.6
+                        },
+                        {
+                            "name": "Maryland",
+                            "value": 2.53
+                        },
+                        {
+                            "name": "Georgia",
+                            "value": 2.5
+                        },
+                        {
+                            "name": "California",
+                            "value": 2.42
+                        },
+                        {
+                            "name": "South Dakota",
+                            "value": 2.37
+                        },
+                        {
+                            "name": "Indiana",
+                            "value": 2.28
+                        },
+                        {
+                            "name": "Alabama",
+                            "value": 2.07
+                        },
+                        {
+                            "name": "Kentucky",
+                            "value": 2.05
+                        },
+                        {
+                            "name": "Ohio",
+                            "value": 1.81
+                        },
+                        {
+                            "name": "Wyoming",
+                            "value": 1.73
+                        },
+                        {
+                            "name": "Vermont",
+                            "value": 1.6
+                        },
+                        {
+                            "name": "District of Columbia",
+                            "value": 1.54
+                        },
+                        {
+                            "name": "New Hampshire",
+                            "value": 1.51
+                        },
+                        {
+                            "name": "Maine",
+                            "value": 1.5
+                        },
+                        {
+                            "name": "Minnesota",
+                            "value": 1.48
+                        },
+                        {
+                            "name": "Iowa",
+                            "value": 1.29
+                        },
+                        {
+                            "name": "Michigan",
+                            "value": 1.01
+                        },
+                        {
+                            "name": "Virginia",
+                            "value": 0.97
+                        },
+                        {
+                            "name": "Connecticut",
+                            "value": 0.83
+                        },
+                        {
+                            "name": "New York",
+                            "value": 0.81
+                        },
+                        {
+                            "name": "Pennsylvania",
+                            "value": 0.78
+                        },
+                        {
+                            "name": "Illinois",
+                            "value": 0.7
+                        },
+                        {
+                            "name": "Massachusetts",
+                            "value": 0.45
+                        },
+                        {
+                            "name": "Delaware",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "Rhode Island",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "North Dakota",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "New Jeresy",
+                            "value": null
+                        },
+                        {
+                            "name": "SouthCarolina",
+                            "value": null
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "center": [
+                        -112,
+                        34
+                    ],
+                    "zoom": 0.8,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "xAxisIndex": 1,
+                    "yAxisIndex": 1
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Alaska",
+                        "Oklahoma",
+                        "Colorado",
+                        "Montana",
+                        "West Virginia",
+                        "Hawaii",
+                        "Tennessee",
+                        "Arkansas",
+                        "Mississippi",
+                        "New Mexico",
+                        "Oregon",
+                        "Arizona",
+                        "Washington",
+                        "Idaho",
+                        "Louisiana",
+                        "Nevada",
+                        "Nebraska",
+                        "Missouri",
+                        "Texas",
+                        "North Carolina",
+                        "Kansas",
+                        "Utah",
+                        "Wisconsin",
+                        "Florida",
+                        "Maryland",
+                        "Georgia",
+                        "California",
+                        "South Dakota",
+                        "Indiana",
+                        "Alabama",
+                        "Kentucky",
+                        "Ohio",
+                        "Wyoming",
+                        "Vermont",
+                        "District of Columbia",
+                        "New Hampshire",
+                        "Maine",
+                        "Minnesota",
+                        "Iowa",
+                        "Michigan",
+                        "Virginia",
+                        "Connecticut",
+                        "New York",
+                        "Pennsylvania",
+                        "Illinois",
+                        "Massachusetts",
+                        "Delaware",
+                        "Rhode Island",
+                        "North Dakota",
+                        "New Jeresy",
+                        "SouthCarolina"
+                    ]
+                }
+            ],
+            "title": [
+                {
+                    "text": "Year 2019's shootings per state (*1e-6)",
+                    "left": "center",
+                    "padding": 20,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "fontWeight": "bolder",
+                        "fontSize": 36
+                    }
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0.0,
+                "max": 9.54,
+                "text": [
+                    "high",
+                    "low"
+                ],
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "dimension": 0,
+                "orient": "vertical",
+                "left": "1%",
+                "top": "1%",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [],
+            "graphic": [
+                {
+                    "type": "group",
+                    "diffChildrenByName": false,
+                    "children": [
+                        {
+                            "type": "text",
+                            "$action": "merge",
+                            "rotation": 0,
+                            "left": "center",
+                            "top": "center",
+                            "bounding": "all",
+                            "z": 100,
+                            "zlevel": 0,
+                            "silent": false,
+                            "invisible": false,
+                            "ignore": false,
+                            "cursor": "pointer",
+                            "draggable": false,
+                            "progressive": false,
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "$action": "merge",
+                    "rotation": 0,
+                    "left": "95%",
+                    "bottom": "98%",
+                    "bounding": "raw",
+                    "z": 100,
+                    "zlevel": 0,
+                    "silent": false,
+                    "invisible": false,
+                    "ignore": false,
+                    "cursor": "pointer",
+                    "draggable": false,
+                    "progressive": false,
+                    "width": 0,
+                    "height": 0
+                }
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Shootings per state"
+                    ],
+                    "selected": {
+                        "Shootings per state": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                },
+                {
+                    "data": [
+                        "Shooting"
+                    ],
+                    "selected": {
+                        "Shooting": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Shootings per state",
+                    "xAxisIndex": 0,
+                    "yAxisIndex": 0,
+                    "legendHoverLink": true,
+                    "data": [
+                        7.86,
+                        6.82,
+                        5.76,
+                        5.49,
+                        4.94,
+                        4.52,
+                        4.48,
+                        3.94,
+                        3.46,
+                        3.02,
+                        3.01,
+                        3.0,
+                        2.81,
+                        2.7,
+                        2.68,
+                        2.6,
+                        2.59,
+                        2.5,
+                        2.47,
+                        2.42,
+                        2.32,
+                        2.31,
+                        2.28,
+                        2.16,
+                        2.16,
+                        2.14,
+                        2.09,
+                        2.03,
+                        2.03,
+                        2.03,
+                        2.02,
+                        1.73,
+                        1.54,
+                        1.5,
+                        1.39,
+                        1.39,
+                        1.29,
+                        1.21,
+                        1.21,
+                        1.11,
+                        1.1,
+                        0.97,
+                        0.85,
+                        0.71,
+                        0.61,
+                        0.6,
+                        0.0,
+                        0.0,
+                        0.0,
+                        null,
+                        null
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": true,
+                        "position": "right",
+                        "margin": 8,
+                        "fontSize": 11,
+                        "formatter": "{b} : {c}"
+                    }
+                },
+                {
+                    "type": "map",
+                    "name": "Shooting",
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8,
+                        "fontSize": 14
+                    },
+                    "mapType": "\u7f8e\u56fd",
+                    "data": [
+                        {
+                            "name": "Nevada",
+                            "value": 7.86
+                        },
+                        {
+                            "name": "Alaska",
+                            "value": 6.82
+                        },
+                        {
+                            "name": "New Mexico",
+                            "value": 5.76
+                        },
+                        {
+                            "name": "Colorado",
+                            "value": 5.49
+                        },
+                        {
+                            "name": "Oklahoma",
+                            "value": 4.94
+                        },
+                        {
+                            "name": "Arizona",
+                            "value": 4.52
+                        },
+                        {
+                            "name": "Utah",
+                            "value": 4.48
+                        },
+                        {
+                            "name": "Montana",
+                            "value": 3.94
+                        },
+                        {
+                            "name": "Florida",
+                            "value": 3.46
+                        },
+                        {
+                            "name": "New Hampshire",
+                            "value": 3.02
+                        },
+                        {
+                            "name": "Washington",
+                            "value": 3.01
+                        },
+                        {
+                            "name": "Georgia",
+                            "value": 3.0
+                        },
+                        {
+                            "name": "Louisiana",
+                            "value": 2.81
+                        },
+                        {
+                            "name": "Arkansas",
+                            "value": 2.7
+                        },
+                        {
+                            "name": "Mississippi",
+                            "value": 2.68
+                        },
+                        {
+                            "name": "California",
+                            "value": 2.6
+                        },
+                        {
+                            "name": "Indiana",
+                            "value": 2.59
+                        },
+                        {
+                            "name": "Kentucky",
+                            "value": 2.5
+                        },
+                        {
+                            "name": "Idaho",
+                            "value": 2.47
+                        },
+                        {
+                            "name": "Kansas",
+                            "value": 2.42
+                        },
+                        {
+                            "name": "Missouri",
+                            "value": 2.32
+                        },
+                        {
+                            "name": "Tennessee",
+                            "value": 2.31
+                        },
+                        {
+                            "name": "Alabama",
+                            "value": 2.28
+                        },
+                        {
+                            "name": "Delaware",
+                            "value": 2.16
+                        },
+                        {
+                            "name": "West Virginia",
+                            "value": 2.16
+                        },
+                        {
+                            "name": "Nebraska",
+                            "value": 2.14
+                        },
+                        {
+                            "name": "Wisconsin",
+                            "value": 2.09
+                        },
+                        {
+                            "name": "Oregon",
+                            "value": 2.03
+                        },
+                        {
+                            "name": "North Carolina",
+                            "value": 2.03
+                        },
+                        {
+                            "name": "Texas",
+                            "value": 2.03
+                        },
+                        {
+                            "name": "Maryland",
+                            "value": 2.02
+                        },
+                        {
+                            "name": "Wyoming",
+                            "value": 1.73
+                        },
+                        {
+                            "name": "District of Columbia",
+                            "value": 1.54
+                        },
+                        {
+                            "name": "Maine",
+                            "value": 1.5
+                        },
+                        {
+                            "name": "Connecticut",
+                            "value": 1.39
+                        },
+                        {
+                            "name": "North Dakota",
+                            "value": 1.39
+                        },
+                        {
+                            "name": "Minnesota",
+                            "value": 1.29
+                        },
+                        {
+                            "name": "Ohio",
+                            "value": 1.21
+                        },
+                        {
+                            "name": "Virginia",
+                            "value": 1.21
+                        },
+                        {
+                            "name": "Michigan",
+                            "value": 1.11
+                        },
+                        {
+                            "name": "Pennsylvania",
+                            "value": 1.1
+                        },
+                        {
+                            "name": "Iowa",
+                            "value": 0.97
+                        },
+                        {
+                            "name": "Illinois",
+                            "value": 0.85
+                        },
+                        {
+                            "name": "Hawaii",
+                            "value": 0.71
+                        },
+                        {
+                            "name": "New York",
+                            "value": 0.61
+                        },
+                        {
+                            "name": "Massachusetts",
+                            "value": 0.6
+                        },
+                        {
+                            "name": "Vermont",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "South Dakota",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "Rhode Island",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "New Jeresy",
+                            "value": null
+                        },
+                        {
+                            "name": "SouthCarolina",
+                            "value": null
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "center": [
+                        -112,
+                        34
+                    ],
+                    "zoom": 0.8,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "xAxisIndex": 1,
+                    "yAxisIndex": 1
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "axisLabel": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Nevada",
+                        "Alaska",
+                        "New Mexico",
+                        "Colorado",
+                        "Oklahoma",
+                        "Arizona",
+                        "Utah",
+                        "Montana",
+                        "Florida",
+                        "New Hampshire",
+                        "Washington",
+                        "Georgia",
+                        "Louisiana",
+                        "Arkansas",
+                        "Mississippi",
+                        "California",
+                        "Indiana",
+                        "Kentucky",
+                        "Idaho",
+                        "Kansas",
+                        "Missouri",
+                        "Tennessee",
+                        "Alabama",
+                        "Delaware",
+                        "West Virginia",
+                        "Nebraska",
+                        "Wisconsin",
+                        "Oregon",
+                        "North Carolina",
+                        "Texas",
+                        "Maryland",
+                        "Wyoming",
+                        "District of Columbia",
+                        "Maine",
+                        "Connecticut",
+                        "North Dakota",
+                        "Minnesota",
+                        "Ohio",
+                        "Virginia",
+                        "Michigan",
+                        "Pennsylvania",
+                        "Iowa",
+                        "Illinois",
+                        "Hawaii",
+                        "New York",
+                        "Massachusetts",
+                        "Vermont",
+                        "South Dakota",
+                        "Rhode Island",
+                        "New Jeresy",
+                        "SouthCarolina"
+                    ]
+                }
+            ],
+            "title": [
+                {
+                    "text": "Year 2020's shootings per state (*1e-6)",
+                    "left": "center",
+                    "padding": 20,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "fontWeight": "bolder",
+                        "fontSize": 36
+                    }
+                },
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0.0,
+                "max": 9.54,
+                "text": [
+                    "high",
+                    "low"
+                ],
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "dimension": 0,
+                "orient": "vertical",
+                "left": "1%",
+                "top": "1%",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [],
+            "graphic": [
+                {
+                    "type": "group",
+                    "diffChildrenByName": false,
+                    "children": [
+                        {
+                            "type": "text",
+                            "$action": "merge",
+                            "rotation": 0,
+                            "left": "center",
+                            "top": "center",
+                            "bounding": "all",
+                            "z": 100,
+                            "zlevel": 0,
+                            "silent": false,
+                            "invisible": false,
+                            "ignore": false,
+                            "cursor": "pointer",
+                            "draggable": false,
+                            "progressive": false,
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "$action": "merge",
+                    "rotation": 0,
+                    "left": "95%",
+                    "bottom": "98%",
+                    "bounding": "raw",
+                    "z": 100,
+                    "zlevel": 0,
+                    "silent": false,
+                    "invisible": false,
+                    "ignore": false,
+                    "cursor": "pointer",
+                    "draggable": false,
+                    "progressive": false,
+                    "width": 0,
+                    "height": 0
+                }
+            ]
+        }
+    ]
+};
+        chart_616717d320034a7e9dfde9773ad05702.setOption(option_616717d320034a7e9dfde9773ad05702);
+    </script>
+</body>
+</html>
